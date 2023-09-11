@@ -30,8 +30,20 @@ if (x+y+z == 30) {
   if (x != 10 && x != 20 && x != 30) {
     if (y != 10 && y != 20 && y != 30) {
       if (z != 10 && z != 20 && z != 30) {
-        println("Success!");
+        println("Success!"); }
+      }
+      else {
+        println("Failure!"); }
       }
     }
+    else {
+      println("Failure!");
+    }
   }
+  else {
+    println("Failure!");
+  }
+}
+else {
+  println("Failure!");
 }
